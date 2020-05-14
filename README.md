@@ -1,7 +1,7 @@
 # Stock-Market-News
 **a project in course OOP - IT3100** 
 
-``` 
+``` java
 main:
 	Stock vnindex = new Stock()
 	vnindex.Generate()
