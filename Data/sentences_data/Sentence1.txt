@@ -1,0 +1,2 @@
+{0} mở đầu phiên giao dịch giảm nhẹ 0,17 điểm xuống {2, number} điểm (-0.55%).
+Mở đầu phiên giao dịch sáng nay ({1}), {0} giảm 6,04 điểm (tương đương 1,87%) xuống {2, number} điểm.

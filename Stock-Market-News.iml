@@ -7,10 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Compressed/sqljdbc_8.2/enu/mssql-jdbc-8.2.2.jre13.jar!/" />
+          <root url="jar://$MODULE_DIR$/mssql-jdbc-8.2.2.jre13.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

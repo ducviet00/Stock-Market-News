@@ -1,67 +1,49 @@
+package main;
+
+import DBquery.DataCollection;
+
 import java.util.ArrayList;
 import java.sql.Date;
-
+import java.util.Map;
 
 
 public abstract class Stock {
     private final String username = "sa";
     private final String password = "1";
     private DataCollection dc = new DataCollection("OOP", username, password);
-    private String name;
-    private Date date;
-    private ArrayList<Data> price = new ArrayList<>();
-    private ArrayList<Data> open = new ArrayList<>();
-    private ArrayList<Data> low = new ArrayList<>();
-    private ArrayList<Data> high = new ArrayList<>();
-    private ArrayList<Data> vol = new ArrayList<>();
-    private ArrayList<Data> change = new ArrayList<>();
+    private final String name;
+    private final String code;
+    private final String date;
+    private Map<String, Data> chartrtis;
 
-    public Stock(String name, Date date) {
+    public Stock(String name, String code, String date) {
+        this.code = code;
         this.name = name;
         this.date = date;
+    }
+
+    public String getCode() {
+        return code;
     }
 
     public String getName() {
         return name;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
-    }
-
-    public ArrayList<Data> getPrice() {
-        return price;
-    }
-
-    public ArrayList<Data> getOpen() {
-        return open;
-    }
-
-    public ArrayList<Data> getLow() {
-        return low;
-    }
-
-    public ArrayList<Data> getHigh() {
-        return high;
-    }
-
-    public ArrayList<Data> getVol() {
-        return vol;
-    }
-
-    public ArrayList<Data> getChange() {
-        return change;
     }
 
     public void setDc(DataCollection dc) {
         this.dc = dc;
     }
 
+    public Data getData(String date) {
+        return  chartrtis.get(date);
+    }
+
     public void collecting() {
-        this.price = dc.collectData("Price", name);
-        this.open = dc.collectData("OpenPrice", name);
-        this.low = dc.collectData("Low", name);
-        this.high = dc.collectData("High", name);
+        this.chartrtis = dc.collectData(name);
         dc.closeConnection();
     }
 }

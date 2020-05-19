@@ -1,19 +1,35 @@
+package main;
+
 import java.sql.Date;
 
 public class Data {
-    private String date;
-    private double data;
+    double price;
+    double open;
+    double low;
+    double high;
+    double vol;
+    double change;
 
-    public Data(double data, String date) {
-        this.data = data;
-        this.date = date;
+    public Data(double price, double open, double low, double high, double vol, double change) {
+        this.price = price;
+        this.open = open;
+        this.low = low;
+        this.high = high;
+        this.vol = vol;
+        this.change = change;
     }
 
     @Override
     public String toString() {
-        return "Data{" +
-                "date=" + date +
-                " - " + data +
-                "}\n";
+        return "Data {" +
+                ", price=" + price +
+                ", open=" + open +
+                ", low=" + low +
+                ", high=" + high +
+                ", vol=" + vol +
+                ", change=" + change +
+                '}';
     }
+
+
 }

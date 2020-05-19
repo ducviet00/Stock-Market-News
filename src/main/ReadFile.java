@@ -10,10 +10,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Patterns {
+public class ReadFile {
 
     static List<String> readFile(String fileName) {
-        double a = 9.0;
         List<String> lines = new ArrayList<>();
         try {
             lines = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);
