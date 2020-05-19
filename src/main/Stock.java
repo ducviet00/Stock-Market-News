@@ -1,9 +1,11 @@
 import java.util.ArrayList;
 import java.sql.Date;
 
+
+
 public abstract class Stock {
-    private String username = "sa";
-    private String password = "1";
+    private final String username = "sa";
+    private final String password = "1";
     private DataCollection dc = new DataCollection("OOP", username, password);
     private String name;
     private Date date;

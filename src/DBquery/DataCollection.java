@@ -20,7 +20,7 @@ public class DataCollection {
             ResultSet rs = statement.executeQuery(sqlquery);
 
             while (rs.next()) {
-                Date date = rs.getDate("tradeDate");
+                String date = rs.getString("tradeDate");
                 double data = rs.getDouble(column);
                 Data temp = new Data(data, date);
                 collection.add(temp);

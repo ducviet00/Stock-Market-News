@@ -1,10 +1,10 @@
 import java.sql.Date;
 
 public class Data {
-    public double data;
-    public Date date;
+    private String date;
+    private double data;
 
-    public Data(double data, Date date) {
+    public Data(double data, String date) {
         this.data = data;
         this.date = date;
     }

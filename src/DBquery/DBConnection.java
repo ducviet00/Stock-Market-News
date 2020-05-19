@@ -27,6 +27,10 @@ public class DBConnection {
             System.err.println("Cannot connect database, " + ex);
             return null;
         }
+    }
 
+    public static void main(String[] args) {
+        DBConnection db = new DBConnection("OOP", "sa", "1");
+        db.connectDB();
     }
 }
