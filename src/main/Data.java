@@ -1,7 +1,5 @@
 package main;
 
-import java.sql.Date;
-
 public class Data {
     double price;
     double open;
@@ -10,11 +8,11 @@ public class Data {
     double vol;
     double change;
 
-    public Data(double price, double open, double low, double high, double vol, double change) {
+    public Data(double price, double open, double high, double low, double vol, double change) {
         this.price = price;
         this.open = open;
-        this.low = low;
         this.high = high;
+        this.low = low;
         this.vol = vol;
         this.change = change;
     }
@@ -22,7 +20,7 @@ public class Data {
     @Override
     public String toString() {
         return "Data {" +
-                ", price=" + price +
+                "price=" + price +
                 ", open=" + open +
                 ", low=" + low +
                 ", high=" + high +

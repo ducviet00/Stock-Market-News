@@ -1,7 +1,7 @@
 package main;
 
-import DBquery.DataCollection;
-
+import main.CollectData.*;
+import main.CollectData.ICollector;
 
 import java.util.Map;
 
@@ -9,7 +9,7 @@ import java.util.Map;
 public class Stock implements IStock {
     private final String username = "sa";
     private final String password = "1";
-    private DataCollection dc = new DataCollection("OOP", username, password);
+    private ICollector dc = new CollectCSV();
     private final String name;
     private final String code;
     private final String date;
@@ -20,7 +20,6 @@ public class Stock implements IStock {
         this.name = name;
         this.date = date;
         this.stkData = dc.collectData(name);
-        dc.closeConnection();
     }
     @Override
     public String getCode() {
@@ -35,7 +34,7 @@ public class Stock implements IStock {
         return date;
     }
 
-    public void setDc(DataCollection dc) {
+    public void setDc(ICollector dc) {
         this.dc = dc;
     }
 
