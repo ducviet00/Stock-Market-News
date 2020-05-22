@@ -8,12 +8,14 @@ main:
 ```
 
 1. Example:
- - sentence 1: VN-Index mở đầu phiên giao dịch giảm nhẹ 0,17 điểm xuống 953,85 điểm (-0.55%)
- - sentence 2: Chốt phiên giao dịch ngày 23/10, VN-Index giảm gần 14 điểm (tương đương 1,45%), còn 939,68 điểm.
- - sentence 3: Mặc dù khối lượng đã tăng lên trên 20% so với hôm qua nhưng chưa thể kéo Vn-Index đảo chiều.
- - sentence 4: khối lượng giao dịch luôn đứng ở mức cao quanh 70 triệu CP/phiên chính là động lực cho sự đi lên của VN-Index thời gian qua.
- - sentence 5: Chỉ số VN-Index đã xuống mức thấp nhất trong vòng hai năm qua khi nó đã vượt qua mức hỗ trợ chính là đáy trước (366,02 điểm vào ngày 20/6).
-	
+
+- sentence 1: VN-Index mở đầu phiên giao dịch giảm nhẹ 0,17 điểm xuống 953,85 điểm (-0.55%)
+
+- sentence 2: Chốt phiên giao dịch ngày 23/10, VN-Index giảm gần 14 điểm (tương đương 1,45%), còn 939,68 điểm.
+- sentence 3: Mặc dù khối lượng đã tăng lên trên 20% so với hôm qua nhưng chưa thể kéo Vn-Index đảo chiều.
+- sentence 4: khối lượng giao dịch luôn đứng ở mức cao quanh 70 triệu CP/phiên chính là động lực cho sự đi lên của VN-Index thời gian qua.
+- sentence 5: Chỉ số VN-Index đã xuống mức thấp nhất trong vòng hai năm qua khi nó đã vượt qua mức hỗ trợ chính là đáy trước (366,02 điểm vào ngày 20/6).
+
 * Với:
 	- date: 23/10/2018
 	- open: 953.85

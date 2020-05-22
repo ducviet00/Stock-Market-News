@@ -20,13 +20,13 @@ public class DataCollection {
     public Map<String, Data> collectData(String table) {
         try {
             Map<String, Data> collected = new HashMap<>();
-            String sqlquery = "SELECT Top(10) tradeDate, " + columns + " From " + table;
+            String sqlquery = "SELECT tradeDate, " + columns + " From " + table;
 
             Statement statement = conn.createStatement();
             ResultSet rs = statement.executeQuery(sqlquery);
 
             while (rs.next()) {
-                String date = rs.getString("tradeDate");
+                String date = rs.getDate("tradeDate").toString();
                 double price = rs.getDouble("Price");
                 double open = rs.getDouble("OpenPrice");
                 double low = rs.getDouble("Low");
@@ -55,6 +55,14 @@ public class DataCollection {
         catch (SQLException ex) {
             System.out.println("Cannot close the connection: " + ex);
         }
+    }
+
+    public static void main(String[] args) {
+        DataCollection dc = new DataCollection("OOP", "sa", "1");
+        Map<String, Data> test = dc.collectData("VNIndex");
+        System.out.println(test.get("2020-04-21"));
+        System.out.println(test.size());
+
     }
 }
 

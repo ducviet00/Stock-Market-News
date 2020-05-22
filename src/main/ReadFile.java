@@ -10,9 +10,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ReadFile {
+public class ReadFile implements IReadData {
 
-    static List<String> readFile(String fileName) {
+    @Override
+    public List<String> readData(String fileName) {
         List<String> lines = new ArrayList<>();
         try {
             lines = Files.readAllLines(Paths.get(fileName), StandardCharsets.UTF_8);
@@ -23,7 +24,8 @@ public class ReadFile {
     }
 
     public static void main(String[] args) {
-        List<String> example = readFile("Data\\sentences_data\\Sentence1.txt");
+        ReadFile rf = new ReadFile();
+        List<String> example = rf.readData("Data\\sentences_data\\Sentence1.txt");
         for (String s : example) {
             System.out.println(s);
         }
