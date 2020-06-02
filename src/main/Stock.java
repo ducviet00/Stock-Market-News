@@ -1,48 +1,71 @@
 package main;
 
 import main.CollectData.*;
-import main.CollectData.ICollector;
 
-import java.util.Map;
+import java.util.List;
 
 
-public class Stock implements IStock {
+public class Stock {
     private final String username = "sa";
     private final String password = "1";
     private ICollector dc = new CollectCSV();
     private final String name;
     private final String code;
-    private final String date;
-    private Map<String, Data> stkData;
+    private List<Data> stkData;
 
-    public Stock(String name, String code, String date) {
+    public Stock(String name, String code) {
         this.code = code;
         this.name = name;
-        this.date = date;
         this.stkData = dc.collectData(name);
     }
-    @Override
+
     public String getCode() {
         return code;
     }
-    @Override
+
     public String getName() {
         return name;
     }
-    @Override
-    public String getDate() {
-        return date;
+
+    public List<Data> getStkData() {
+        return stkData;
     }
+
+    public Data getData() {
+        return stkData.get(0);
+    }
+
+    public String increase() {
+        int indexToday = 0;
+        Data today = stkData.get(indexToday);
+        Data yesterday = stkData.get(indexToday + 1);
+
+        double increment = today.open - yesterday.price;
+        double absIcm = Math.abs(increment);
+
+        if (increment < 0) {
+            if (absIcm < 1) {
+                return "giảm nhẹ " + String.valueOf(absIcm);
+            } else if (absIcm > 50) {
+                return "giảm mạnh " + String.valueOf(absIcm);
+            } else {
+                return "giảm " + String.valueOf(absIcm);
+            }
+        } else {
+            if (absIcm < 1) {
+                return "tăng nhẹ " + String.valueOf(absIcm);
+            } else if (absIcm > 50) {
+                return "tăng mạnh " + String.valueOf(absIcm);
+            } else {
+                return "tăng " + String.valueOf(absIcm);
+            }
+        }
+
+    }
+
 
     public void setDc(ICollector dc) {
         this.dc = dc;
     }
 
-    public Map<String, Data> getStkData() {
-        return stkData;
-    }
-    @Override
-    public Data get1DayData() {
-        return stkData.get(date);
-    }
 }

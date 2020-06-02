@@ -1,13 +1,36 @@
 package main;
 
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Application {
-    public static void main(String[] args) {
-        IStock vni = new Stock("VNIndex", "VNI", "2020-04-21");
-        IStock hnx = new Stock("HNXIndex", "HNX","2020-04-21");
-        vni.get1DayData();
-        Generating gen = new Generating(vni);
-        gen.generateSentences();
-        gen = new Generating(hnx);
-        gen.generateSentences();
+/*    public static Date str2Date(String str) {
+
+        Scanner scanner = new Scanner(System.in);
+        String strDate = scanner.nextLine();
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+        try {
+            return formatter.parse(strDate);
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }*/
+
+    public static void main(String[] args) throws ParseException {
+
+        Stock vni = new Stock("VNIndex", "VNI");
+        Stock hnx = new Stock("HNXIndex", "HNX");
+
+        List<Stock> stocks = new ArrayList<>();
+        stocks.add(vni);
+        stocks.add(hnx);
+
+        for (Stock stock : stocks) {
+            GenReport genReport = new GenReport(stock);
+            genReport.generateSentences();
+        }
     }
 }

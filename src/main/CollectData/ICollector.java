@@ -2,8 +2,8 @@ package main.CollectData;
 
 import main.Data;
 
-import java.util.Map;
+import java.util.List;
 
 public interface ICollector {
-    public Map<String, Data> collectData(String name);
+    public List<Data> collectData(String name);
 }

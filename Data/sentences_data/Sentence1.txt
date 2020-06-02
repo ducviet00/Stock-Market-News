@@ -1,2 +1,2 @@
-{1} mở đầu phiên giao dịch giảm nhẹ 0,17 điểm xuống {3, number} điểm (-0.55%).
-Mở đầu phiên giao dịch sáng nay ({2}), {1} giảm 6,04 điểm (tương đương 1,87%) xuống {3, number} điểm.
+{1} mở đầu phiên giao dịch {5} điểm xuống {3, number} điểm ({4, number}%).
+Mở đầu phiên giao dịch sáng nay ({2}), {1} {5} điểm (tương đương {4, number}%) xuống {3, number} điểm.

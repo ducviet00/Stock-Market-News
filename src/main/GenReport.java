@@ -4,21 +4,27 @@ import java.text.MessageFormat;
 import java.util.List;
 import java.util.Random;
 
-public class Generating {
+public class GenReport {
     private final String code;
     private final String name;
-    private final String date;
-    private Data data;
+    private final Data data;
+    private final String increment;
+    private final String dateStr;
     private final IReadData readFile = new ReadFile();
 
-    public Generating(IStock stk){
-        code = stk.getCode();
-        name = stk.getName();
-        date = stk.getDate();
-        data = stk.get1DayData();
-    }
-    private void sentence1() {
+    public GenReport(Stock stk) {
+        this.code = stk.getCode();
+        this.name = stk.getName();
+        this.data = stk.getData();
+        this.increment = stk.increase();
+        this.dateStr = Utils.date2String(data.tradeDate);
 
+    }
+
+    private void sentence1() {
+    /*
+    Mở đầu phiên giao dịch sáng nay ({2}), {1} {5} điểm (tương đương {4, number}%) xuống {3, number} điểm.
+     */
         List<String> patterns = readFile.readData("Data\\sentences_data\\Sentence1.txt");
 
         Random rand = new Random();
@@ -26,7 +32,7 @@ public class Generating {
 
         String pattern = patterns.get(index);
         String result = MessageFormat.format(
-                pattern, code, name, date, data.open);
+                pattern, code, name, dateStr, data.open, data.change, increment);
 
         System.out.println(result);
     }
@@ -43,13 +49,13 @@ public class Generating {
 
         String pattern = patterns.get(index);
         String result = MessageFormat.format(
-                pattern, code, name, date, data.price, data.change);
+                pattern, code, name, dateStr, data.price, data.change);
 
         System.out.println(result);
     }
 
-    public void generateSentences(){
-        System.out.println(code + " " + date + ":");
+    public void generateSentences() {
+        System.out.println(code + " " + dateStr + ":");
         sentence1();
         sentence2();
     }
