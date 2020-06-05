@@ -1,2 +1,0 @@
-{1} mở đầu phiên giao dịch {5} điểm xuống {3, number} điểm ({4, number}%).
-Mở đầu phiên giao dịch sáng nay ({2}), {1} {5} điểm (tương đương {4, number}%) xuống {3, number} điểm.

@@ -35,34 +35,19 @@ public class Stock {
         return stkData.get(0);
     }
 
-    public String increase() {
+    public double d2Change() {
         int indexToday = 0;
         Data today = stkData.get(indexToday);
         Data yesterday = stkData.get(indexToday + 1);
 
-        double increment = today.open - yesterday.price;
-        double absIcm = Math.abs(increment);
-
-        if (increment < 0) {
-            if (absIcm < 1) {
-                return "giảm nhẹ " + String.valueOf(absIcm);
-            } else if (absIcm > 50) {
-                return "giảm mạnh " + String.valueOf(absIcm);
-            } else {
-                return "giảm " + String.valueOf(absIcm);
-            }
-        } else {
-            if (absIcm < 1) {
-                return "tăng nhẹ " + String.valueOf(absIcm);
-            } else if (absIcm > 50) {
-                return "tăng mạnh " + String.valueOf(absIcm);
-            } else {
-                return "tăng " + String.valueOf(absIcm);
-            }
-        }
-
+        return today.open - yesterday.price;
     }
 
+    public double dailyChange() {
+        Data today = stkData.get(0);
+
+        return today.open - today.price;
+    }
 
     public void setDc(ICollector dc) {
         this.dc = dc;

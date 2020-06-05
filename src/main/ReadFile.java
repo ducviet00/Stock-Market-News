@@ -22,7 +22,7 @@ public class ReadFile implements IReadData {
 
     public static void main(String[] args) {
         ReadFile rf = new ReadFile();
-        List<String> example = rf.readData("Data\\sentences_data\\Sentence1.txt");
+        List<String> example = rf.readData("Data\\sentences_data\\Sentence1_decrease.txt");
         for (String s : example) {
             System.out.println(s);
         }
