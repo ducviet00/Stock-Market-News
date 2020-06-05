@@ -15,7 +15,7 @@ public class CollectCSV implements ICollector {
     public List<Data> collectData(String filename) {
         List<Data> collected = new ArrayList<>();
         try {
-            String filePath = "Data/" + filename + ".csv";
+            String filePath = ".\\Data\\" + filename + ".csv";
             FileReader fileReader = new FileReader(filePath);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             SimpleDateFormat formatter1 = new SimpleDateFormat("yyyy-MM-dd");
