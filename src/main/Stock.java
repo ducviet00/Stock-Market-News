@@ -6,8 +6,6 @@ import java.util.List;
 
 
 public class Stock {
-    private final String username = "sa";
-    private final String password = "1";
     private ICollector dc = new CollectCSV();
     private final String name;
     private final String code;
@@ -40,13 +38,16 @@ public class Stock {
         Data today = stkData.get(indexToday);
         Data yesterday = stkData.get(indexToday + 1);
 
-        return today.open - yesterday.price;
+        return today.getOpen() - yesterday.getPrice();
     }
 
     public double dailyChange() {
         Data today = stkData.get(0);
 
-        return today.open - today.price;
+        return today.getOpen() - today.getPrice();
+    }
+    public Data getDailyData (int index) {
+        return stkData.get(index);
     }
 
     public void setDc(ICollector dc) {

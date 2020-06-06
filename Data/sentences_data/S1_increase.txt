@@ -1,0 +1,1 @@
+Mở đầu phiên ngày {2}, {1} tăng {5, number, #.##} điểm, tương đương {4, number}%, lên {3, number} điểm.
