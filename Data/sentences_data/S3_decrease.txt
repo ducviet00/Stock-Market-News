@@ -1,0 +1,2 @@
+Khối lượng giao dịch của {1} đã giảm {5,number, #.##}% so với ngày hôm qua.
+Ngày {3} khối lượng giao dịch đã giảm {5,number, #.##}% còn {3} điểm .

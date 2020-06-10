@@ -1,0 +1,2 @@
+{1} giao dịch ảm đạm với hơn {4} cổ phiếu được sang tay, đạt {5} đồng.
+Chốt phiên giao dịch ngày {2}, {1} đạt {3} điểm với chưa đầy {4} chứng khoán, tương đương {5} đồng được khớp lệnh qua sàn.

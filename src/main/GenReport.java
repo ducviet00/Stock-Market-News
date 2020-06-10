@@ -1,7 +1,6 @@
 package main;
 
-import main.GenCorpus.Sentence1;
-import main.GenCorpus.Sentences;
+import main.GenCorpus.*;
 
 public class GenReport {
     Stock stk;
@@ -30,7 +29,13 @@ public class GenReport {
     public void generateSentences() {
         System.out.println("---------------------------:");
         Sentences sentence1 = new Sentence1(this.stk);
+        Sentences sentence2 = new Sentence2(this.stk);
+        Sentences sentence3 = new Sentence3(this.stk);
+        Sentences sentence4 = new Sentence4(this.stk);
         sentence1.genSentence();
+        sentence2.genSentence();
+        sentence3.genSentence();
+        sentence4.genSentence();
     }
 
 }

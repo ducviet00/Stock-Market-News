@@ -1,0 +1,2 @@
+Kết thúc phiên giao dịch ngày {2}, khối lượng giao dịch của {1} thể hiện lực cầu tăng mạnh, lên tới {4} cổ phiếu.
+Chốt phiên giao dịch, {1} dừng ở mức {3} điểm, thanh khoản lên cao với {4} cổ phiếu đổi chủ, trị giá hơn {5} đồng.

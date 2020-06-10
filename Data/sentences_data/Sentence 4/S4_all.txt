@@ -1,0 +1,6 @@
+{1} kết thúc đợt khớp lệnh liên tục với số điểm {3}, khối lượng giao dịch đạt {4} đơn vị.
+Chốt đợt khớp lệnh liên tục, {1} dừng ở mức {3} điểm, giá trị giao dịch đạt {5} đồng.
+Kết thúc đợt khớp lệnh mở cửa {1} đạt {3} điểm sau khi hơn {4} cổ phiếu ({5} đồng) được khớp.
+Chốt phiên giao dịch ngày {2}, {1} chuyển nhượng {4} cổ phiếu, tương đương {5} đồng.
+Chốt phiên giao dịch hôm nay ({2}), {1} mua bán hơn {4} đơn vị, tương đương {5} đồng.
+{1} đóng cửa giao dịch tại {3} điểm, giao dịch gần {4} cổ phiếu, tương đương {5} đồng.
