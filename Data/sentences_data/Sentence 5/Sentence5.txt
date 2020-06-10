@@ -1,0 +1,3 @@
+Trong vòng {3} ngày qua, chỉ số {0} chạm mức thấp nhất tại {2}, và đạt ngưỡng cao nhất tại {1}
+Chỉ số {0} đạt mức cao nhất là {1} và chạm đáy tại {2} trong vòng {3} ngày vừa qua.
+Vào ngày {1}, chỉ số {0} đạt ngưỡng thấp nhất tại {2} trong vòng {3} ngày qua.

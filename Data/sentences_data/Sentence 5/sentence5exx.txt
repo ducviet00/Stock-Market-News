@@ -1,0 +1,2 @@
+Trong ngày hôm nay, chỉ số {0} chạm đáy tại {2} và đạt ngưỡng cao nhất tại {1}.
+Chỉ số {0} đạt ngưỡng cao nhất tại {1} và chạm đáy tại {2} trong ngày hôm nay.

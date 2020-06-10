@@ -25,8 +25,8 @@ public class Sentence3 extends Sentences {
 
         List<String> patterns = null;
         if (increase > 0) {
-            patterns = readFile.readData("Data\\sentences_data\\S3_increase.txt");
-        } else patterns = readFile.readData("Data\\sentences_data\\S3_decrease.txt");
+            patterns = readFile.readData("Data\\sentences_data\\Sentence 3\\S3_increase.txt");
+        } else patterns = readFile.readData("Data\\sentences_data\\Sentence 3\\S3_decrease.txt");
 
         double volChange = Math.abs(increase);
         Random rand = new Random();

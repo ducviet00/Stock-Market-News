@@ -37,7 +37,7 @@ public class Sentence2 extends Sentences {
             patterns = readFile.readData("Data\\sentences_data\\Sentence 2\\S2_decrease.txt");
         } else if (closeChange <= 5) {
             str = "tăng nhẹ " + closeChangeStr;
-            patterns = readFile.readData("Data\\sentences_data\\Sentence 2\\S2_decrease.txt");
+            patterns = readFile.readData("Data\\sentences_data\\Sentence 2\\S2_increase.txt");
         } else {
             str = "tăng mạnh " + closeChangeStr;
             patterns = readFile.readData("Data\\sentences_data\\Sentence 2\\S2_increase.txt");
@@ -52,51 +52,4 @@ public class Sentence2 extends Sentences {
 
         System.out.println(result);
     }
-
-    // {0} - code ; {1} - name ; {2} - dateStr ; {3} - close price ; {4} - percent; {5} - str - tăng/giảm
-
-
-
-    /*genSentenceInFile2("Data\\sentences_data\\Sentence2.txt",obArray);
-
-    if((dailyChange< 0)&&(dailyChange >=-2))
-
-    {
-        str = "giảm nhẹ " + data.dailyChange.toString();
-        genSentenceInFile2("Data\\sentences_data\\S2_decrease.txt", obArray);
-    }
-    if((dailyChange< -2)&&(dailyChange >=-10))
-
-    {
-        str = "giảm " + data.dailyChange.toString();
-        genSentenceInFile2("Data\\sentences_data\\S2_decrease.txt", obArray);
-    }
-
-	    if(dailyChange< -10)
-
-    {
-        str = "giảm mạnh " + data.dailyChange.toString();
-        genSentenceInFile2("Data\\sentences_data\\S2_decrease.txt", obArray);
-    }
-
-	    if((dailyChange <=4)&&(dailyChange >0))
-
-    {
-        str = "tăng nhẹ " + data.dailyChange.toString();
-        genSentenceInFile2("Data\\sentences_data\\S2_increase.txt", obArray);
-    }
-
-	    if(dailyChange >4)&&(dailyChange< 10))
-
-    {
-        str = "tăng " + data.dailyChange.toString();
-        genSentenceInFile2("Data\\sentences_data\\S2_increase.txt", obArray);
-    }
-
-		if(dailyChange >=10)
-
-    {
-        str = "tăng mạnh " + data.dailyChange.toString();
-        genSentenceInFile2("Data\\sentences_data\\S2_increase.txt", obArray);
-    }*/
 }

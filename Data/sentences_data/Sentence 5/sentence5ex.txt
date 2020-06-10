@@ -1,0 +1,2 @@
+Trong {3} ngày vừa qua, chỉ số {0} không có gì thay đổi.
+Khá bất ngờ khi chỉ số {0} không có sự thay đổi trong {3} ngày vừa rồi.

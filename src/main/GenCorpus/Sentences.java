@@ -4,7 +4,7 @@ import main.Data;
 import main.ReadData.IReadData;
 import main.ReadData.ReadFile;
 import main.Stock;
-import main.Utils;
+import main.Utils.Utils;
 
 public abstract class Sentences {
     protected Stock stk;

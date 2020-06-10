@@ -27,8 +27,8 @@ public class Sentence1 extends Sentences {
 
         List<String> patterns = null;
         if (increase > 0) {
-            patterns = readFile.readData("Data\\sentences_data\\S1_decrease.txt");
-        } else patterns = readFile.readData("Data\\sentences_data\\S1_increase.txt");
+            patterns = readFile.readData("Data\\sentences_data\\Sentence 1\\S1_decrease.txt");
+        } else patterns = readFile.readData("Data\\sentences_data\\Sentence 1\\S1_increase.txt");
 
         double priceChange = Math.abs(increase);
         Random rand = new Random();

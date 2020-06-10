@@ -33,19 +33,6 @@ public class Stock {
         return stkData.get(0);
     }
 
-    public double d2Change() {
-        int indexToday = 0;
-        Data today = stkData.get(indexToday);
-        Data yesterday = stkData.get(indexToday + 1);
-
-        return today.getOpen() - yesterday.getPrice();
-    }
-
-    public double dailyChange() {
-        Data today = stkData.get(0);
-
-        return today.getOpen() - today.getPrice();
-    }
     public Data getDailyData (int index) {
         return stkData.get(index);
     }

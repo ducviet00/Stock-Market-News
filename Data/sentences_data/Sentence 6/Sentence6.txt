@@ -1,0 +1,2 @@
+﻿Đóng cửa phiên ngày {2},{1} đã {3} {4} phiên liên tiếp, đạt hơn {5} điểm.
+Hôm nay là phiên thứ {4} điểm của {1} {3} liên tiếp.

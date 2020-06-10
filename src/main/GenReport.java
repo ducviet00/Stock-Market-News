@@ -32,10 +32,14 @@ public class GenReport {
         Sentences sentence2 = new Sentence2(this.stk);
         Sentences sentence3 = new Sentence3(this.stk);
         Sentences sentence4 = new Sentence4(this.stk);
+        Sentences sentence5 = new Sentence5(this.stk);
+        //Sentences sentence6 = new Sentence6(this.stk);
         sentence1.genSentence();
         sentence2.genSentence();
         sentence3.genSentence();
         sentence4.genSentence();
+        sentence5.genSentence();
+        //sentence6.genSentence();
     }
 
 }
