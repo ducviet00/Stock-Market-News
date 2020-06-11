@@ -1,2 +1,31 @@
-Trong ngày hôm nay, chỉ số {0} chạm đáy tại {2} và đạt ngưỡng cao nhất tại {1}.
+Trong ngày hôm nay,chỉ số {0} chạm đáy tại {2} và đạt ngưỡng cao nhất tại {1}.
 Chỉ số {0} đạt ngưỡng cao nhất tại {1} và chạm đáy tại {2} trong ngày hôm nay.
+Trong ngày vừa qua chỉ số {0} đạt ngưỡng cao nhất và thấp nhất lần lượt tại {1} và {2}.
+Chỉ số {0} đạt ngưỡng cao nhất và thấp nhất lần lượt tại {1} và {2} trong ngày hôm nay.
+Ngưỡng cao nhất và thấp nhất mà chỉ số {0} có trong ngày hôm nay là {1} và {2}.
+Ngày hôm nay chỉ số {0} đạt mức cao nhất tại {1} và có mức đáy là {2}.
+Hôm nay ngưỡng cao nhất và thấp nhất của chỉ số {0} là {1} và {2}.
+{1} và {2} là mức chỉ số cao nhất và thấp nhất của chỉ số {0} trong ngày hôm nay.
+Chỉ số {0} có mức thấp nhất và ngưỡng cao nhất lần lượt là {2} và {1} trong ngày hôm nay.
+Mức thấp nhất và ngưỡng cao nhất mà chỉ số {0} có trong ngày hôm nay là {2} và {1}.
+Mức giá cao nhất và thấp nhất của chỉ số {0} có trong ngày hôm nay là {1} và {2}.
+Trong ngày vừa rồi, chỉ số {0} có mức giá cao nhất và thấp nhất là {1} và {2}.
+Trong ngày hôm nay, mức giá của chỉ số {0} chạm đáy tại {2} và đạt ngưỡng cao nhất tại {1}.
+Gía cao nhất và thấp nhất của cổ phiếu {0} trong ngày hôm nay lần lượt là {1} và {2}.
+Cổ phiếu {0} đạt ngưỡng cao nhất tại {1} và chạm đáy tại {2} trong hôm nay.
+Trong ngày vừa rồi, cổ phiếu {0} có mức giá cao nhất và thấp nhất lần lượt là {1} và {2}.
+{2} và {1} là mức giá thấp nhất và cao nhất mà cổ phiếu {0} có hôm nay.
+{1} và {2} là mức chỉ số cao nhất và thấp nhất mà cổ phiếu {0} có trong hôm nay.
+{2} là mức giá thấp nhất và {1} là mức giá cao nhất mà cổ phiếu {0} hôm nay có được.
+Cổ phiếu {0} hôm nay có được mức giá thấp nhất và cao nhất lần lượt tại {2} và {1}.	
+Cổ phiếu {0} trong hôm nay đạt ngưỡng cao nhất tại {1} và có mức thấp nhất là {2}.
+{1} là mức giá cao nhất và {2} là mức giá thấp nhất mà cổ phiếu {0} hôm nay có.
+
+
+
+
+
+
+
+
+

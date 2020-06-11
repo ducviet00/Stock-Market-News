@@ -1,2 +1,15 @@
 {1} mở đầu phiên giao dịch giảm {5, number, #.##} điểm xuống {3, number} điểm ({4, number}%).
 Mở đầu phiên giao dịch sáng nay ({2}), {1} giảm {5, number, #.##} điểm (tương đương {4, number}%) xuống {3, number} điểm.
+Sáng ngày {2} cổ phiếu của {1} giảm {4, number}% còn {3, number} điểm nhưng nhìn chung tình hình giao dịch vẫn đang rất ổn định.
+Ngay trong phiên giao dịch đầu tiên của {1} sáng ngày {2}, cổ phiếu đã giảm {5, number, #.##} điểm (tương đương {4, number}%).
+Ngay trong phiên giao dịch đầu tiên sáng ngày {2}, cổ phiếu của {1} đã giảm ngay {4, number}% chỉ còn {3, number}.
+Trong phiên giao dịch đầu tiên sáng ngày {2}, giá cổ phiếu của {1} đã giảm còn {3, number} điểm.
+Trong phiên giao dịch đầu tiên của {1} giá cổ phiếu đã giảm {4, number}% còn {3, number} điểm cho thấy dấu hiệu không tốt.
+{1} mở đầu phiên giao dịch giảm {5, number, #.##} tương đương {4, number}% cho thấy dấu hiệu không tốt.
+Sáng ngày {2} cổ phiếu của {1} giảm {5, number, #.##} điểm xuống {3, number} điểm ({4, number}%) nhưng tình hình vẫn rất khả quan.
+Mở đầu phiên giao dịch sáng nay ({2}), {1} giảm {5, number, #.##} điểm (tương đương {4, number}%) xuống {3, number} điểm cho thấy dấu hiệu không tích cực.
+Mở đầu phiên giao dịch {1} đã xuống {3, number} giảm {4, number}% so với kết thúc phiên giao dịch cuối cùng ngày hôm qua.
+Ngay trong sáng {2} giá cổ phiểu {1} đã xuống còn {3, number} giảm {5, number, #.##} điểm, tương đương {4, number}%.
+Ngay trong buổi sáng {2},{1} đã giảm {4, number}%( {5, number, #.##} điểm ) còn {3, number} cho thấy tín hiệu không tốt.
+Giá cổ phiếu của {1} đã bất ngờ giảm {5, number, #.##} tương đương {4, number}% ngay trong phiên giao dich đầu tiên.
+Tình hình của {1} đang rất không khả quan vì sự giảm giá cổ phiếu lên đến {3, number} , giảm {5, number, #.##} điểm so với ngày hôm qua.

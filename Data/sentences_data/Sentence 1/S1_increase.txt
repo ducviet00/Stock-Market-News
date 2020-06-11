@@ -1,1 +1,15 @@
-Mở đầu phiên ngày {2}, {1} tăng {5} điểm, tương đương {4, number}%, lên {3, number} điểm.
+Mở đầu phiên ngày {2}, {1} tăng {5, number, #.##} điểm, tương đương {4, number}%, lên {3, number} điểm.
+Mở đầu phiên giao dịch {1} tăng lên {3, number} điểm tương đương {4, number}% cho thấy sự phát triển đang khá ổn định.
+Ngày {2}, {1} đã tăng lên {3, number} điểm ngay phiên mở đầu cho thấy dấu hiệu của sự chuyển biến tôt.
+Ngay trong phiên giao dịch đầu tiên sáng ngày {2}, giá cổ phiếu của {1} đã tăng lên {3, number} điểm.
+Ngay trong phiên giao dịch đầu tiên của {1} giá cổ phiếu đã tăng {5, number, #.##} điểm ({4, number}%) lên {3, number} điểm.
+Sáng ngày {2} cổ phiếu của {1} đã tăng {4, number}% lên {3, number} điểm .
+Sáng ngày {2} cổ phiếu của {1} đã tăng {4, number}%( {5, number, #.##} điểm )lên {3, number} điểm cho thấy sự tích cực của thị trường.
+Trong phiên giao dịch đầu tiên của {1} giá cổ phiếu đã tăng {4, number}% lên {3, number} điểm cho thấy sự chuyển biến tích cực.
+Trong phiên giao dịch đầu tiên sáng ngày {2}, giá cổ phiếu của {1} đã tăng lên {5, number, #.##} thành {3, number} cho thấy sự khởi sắc trong giao dịch.
+Ngày {2}, {1} đã tăng lên {3, number} điểm ngay phiên mở đầu cho thấy dấu hiệu của sự chuyển biến tích cực.
+Mở đầu phiên giao dịch {1} đã đạt {3, number} điểm tăng {4, number}% so với kết thúc phiên giao dịch cuối cùng ngày hôm qua.
+Ngay trong sáng {2} giá cổ phiểu {1} đã đạt {3, number} tăng{5, number, #.##} điểm, tương đương {4, number}%.
+Ngay trong buổi sáng {2},{1} đã tăng {4, number}%( {5, number, #.##} điểm ) lên {3, number} cho thấy tín hiệu rất tốt.
+Giá cổ phiếu của {1} đã bất ngờ tăng {5, number, #.##} tương đương {4, number}% ngay trong phiên giao dich đầu tiên.
+Tình hình của {1} đang rất khả quan vì sự tăng giá cổ phiếu lên đến {3, number} , tăng {5, number, #.##} điểm so với ngày hôm qua.

@@ -1,1 +1,4 @@
-Chốt phiên giao dịch {2}, {1} {5} điểm (tương đương {4}%) còn {3} điểm.
+{1} sau phiên giao dịch ngày {2} {5} điểm còn {3} điểm.
+{1} {5} điểm ( tương đương {4}% ) còn {3} sau phiên giao dịch ngày {2}.
+Với số điểm còn {3}, {1} đã {5} điểm sau phiên giao dịch ngày {2}.
+{1} kết thức ngày {2} với {3} điểm, {5} điểm so với đầu phiên.

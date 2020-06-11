@@ -1,2 +1,6 @@
-Trong {3} ngày vừa qua, chỉ số {0} không có gì thay đổi.
-Khá bất ngờ khi chỉ số {0} không có sự thay đổi trong {3} ngày vừa rồi.
+Trong {3} ngày vừa qua, chỉ số {0} không có gì thay đổi, giữ nguyên tại mức {1}.
+Khá bất ngờ khi chỉ số {0} không có sự thay đổi trong {3} ngày vừa rồi, có chỉ số giữ nguyên tại {1}.
+Trong {3} ngày vừa rồi , ta có thể thấy chỉ số {0} không có biến động, mức giá giữ nguyên tại {1}.
+Chỉ số {0} không có biến động đáng kể trong {3} ngày vừa qua, có mức giá giữ nguyên tại {1}.
+Mức giá của chỉ số {0} giữ nguyên tại {1} trong vòng {3} ngày vừa qua, không có sự thay đổi.
+Mức giá của cổ phiếu {0} không có thay đổi trong vòng {3} ngày vừa qua, giữ nguyên tại {1}.

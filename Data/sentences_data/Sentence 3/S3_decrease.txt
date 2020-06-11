@@ -1,2 +1,12 @@
-Khối lượng giao dịch của {1} đã giảm {5,number, #.##}% so với ngày hôm qua.
-Ngày {3} khối lượng giao dịch đã giảm {5,number, #.##}% còn {3} điểm .
+Khối lượng giao dịch của {1} đã giảm {5,number, #.##}% còn {3} điểm so với ngày hôm qua.
+Ngày {2} khối lượng giao dịch đã giảm {5,number, #.##}% còn {3} điểm .
+Ngày {2} khối lượng giao dịch của {1} đã giảm còn {3} điểm tương đương {5,number, #.##}%.
+Ngày {2} khối lượng giao dịch đã giảm còn còn {3} điểm tương đương {5,number, #.##} nhưng vẫn chưa thể kéo {1} đảo chiều.
+Khối lượng giao dịch của {1} đã giảm {5,number, #.##} còn {3} điểm nhưng vẫn chưa có dấu hiệu chững lại.
+Khối lượng giao dich đã giảm {5,number, #.##} nhưng nhìn chung {1} vẫn đang rất ổn định.
+Mặc dù khối lượng giao dịch của {1} đã giảm xuống còn {3} điểm tương đương {5,number, #.##}% nhưng nhìn chung tình hình vẫn dang rất ổn định.
+Kết thúc phiên giao dịch ngày {2} khối lượng giao dịch đã chỉ còn {3} điểm, giảm {5,number, #.##}% so với hôm qua nhưng tình hình vẫn đang rất khả quan.
+Kết thúc phiên giao dịch ngày {2} khối lượng giao dịch của {1} giảm xuống {5,number, #.##}% so với hôm qua.
+Mặc dù khối lượng giao dịch của {1} đã giảm xuống còn {3} điểm tương đương {5,number, #.##}% nhưng vẫn chưa thể kéo tình hình đảo chiều.
+Sau khi kết thúc phiên giao dich ngày {2}, khối lượng giao dich của {1} đã giảm xuống còn {3} điểm tương đương {5,number, #.##}%.
+Kết thúc phiên giao dịch, khối lượng giao dịch của đã giảm {5,number, #.##}% nhưng vẫn chưa thể kéo {1} đảo chiều.

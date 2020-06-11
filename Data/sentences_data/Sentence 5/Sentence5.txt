@@ -1,3 +1,29 @@
 Trong vòng {3} ngày qua, chỉ số {0} chạm mức thấp nhất tại {2}, và đạt ngưỡng cao nhất tại {1}
 Chỉ số {0} đạt mức cao nhất là {1} và chạm đáy tại {2} trong vòng {3} ngày vừa qua.
-Vào ngày {1}, chỉ số {0} đạt ngưỡng thấp nhất tại {2} trong vòng {3} ngày qua.
+Mức cao nhất và thấp nhất mà chỉ số {0} có trong vòng {3} ngày qua lần lượt là {1} và {2}.
+Trong vòng {3} ngày tính cho đến hiện tại, mức cao nhất và thấp nhất mà chỉ số {0} có là {1} và {2}.
+Trong vòng {3} ngày tính đến hiện tại, giá của cổ phiếu {0} đạt ngưỡng tại {1} và chạm sàn tại {2}.
+Gía của cổ phiếu {0} đạt mức cao nhất là {1} và mức thấp nhất là {2} trong vòng {3} ngày qua.
+Cổ phiếu {0} có mức giá cao nhất là {1} và thấp nhất là {2} trong vòng {3} ngày qua.
+Mức thấp nhất và ngưỡng cao nhất mà chỉ số {0} có trong vòng {3} ngày qua lần lượt là {2} và {1}.
+Trong vòng {3} ngày tính cho đến hiện tại, mức thấp nhất và cao nhất mà chỉ số {0} có là {2} và {1}.
+Gía của cổ phiếu {0} có mức thấp nhất là {2} và ngưỡng cao nhất là {1} trong vòng {3} ngày qua.
+Tính đến ngày hôm nay, trong vòng {3} ngày vừa qua, cổ phiếu {0} đạt ngưỡng tại {1} và chạm sàn tại {2}.
+Tính đến ngày hôm nay, trong vòng {3} ngày vừa qua, chỉ số {0} có mức cao nhất là {1} và thấp nhất tại {2}.
+Ngưỡng cao nhất và mức thấp nhất mà giá cổ phiếu {0} có được trong vòng {3} ngày qua là {1} và {2}.
+Mức thấp nhất và ngưỡng cao nhất mà giá cổ phiếu {0} có được trong {3} ngày tính đến hiện tại là {2} và {1}.
+Mức giá của chỉ số {0} trong vòng {3} ngày qua có mức thấp nhất và cao nhất lần lượt là {2} và {1}.
+Gía của cổ phiếu {0} trong vòng {3} ngày qua tính tới hôm nay có mức cao nhất là {1} và mức sàn là {2}.
+{2} và {1} là mức giá thấp nhất và cao nhất mà cổ phiếu {0} có trong {3} ngày qua.
+{1} và {2} là mức cao nhất và thấp nhất chỉ số {0} có trong vòng {3} ngày qua, tính cho đến hiện tại.
+Tính cho đến hiện tại, {2} và {1} lần lượt là mức giá thấp nhất và cao nhất của cổ phiếu {0} trong vòng {3} ngày qua.
+Mức giá của cổ phiếu {0} chạm đáy tại chỉ số {2} và đạt ngưỡng cao nhất tại {1} trong {3} ngày vừa qua.
+Mức giá của cổ phiếu {0} đạt ngưỡng cao nhất tại {1} và chạm đáy tại {2} trong vòng {3} ngày qua.
+
+
+
+	
+
+
+
+

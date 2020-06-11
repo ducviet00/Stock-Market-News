@@ -1,4 +1,14 @@
 Mặc dù khối lượng giao dịch đã tăng lên {5,number, #.##}% so với hôm qua nhưng chưa thể kéo {1} đảo chiều.
 Khối lượng giao dịch của {1} đã tăng {5,number, #.##}% so với ngày hôm qua.
 Ngày {2} khối lượng giao dịch tăng lên thành {3} điểm (tương đương {5,number, #.##}%) so với ngày hôm qua.
-Khối lượng giao dịch của {1} tăng lên thành {3} điểm ({5,number, #.##}%)cho thấy dấu hiệu chuyển biến khá tốt của thị trường.
+Khối lượng giao dịch của {1} tăng lên thành {3} điểm ({5,number, #.##}%) cho thấy dấu hiệu chuyển biến khá tốt của thị trường.
+Khối lượng giao dịch tăng {5,number, #.##}%, nhìn chung khá ổn định.
+Kết thúc phiên giao dịch của ngày, khối lượng giao dịch của {1} đã tăng lên thành {3} điểm.
+Kết thúc phiên giao dịch của ngày {2}, khối lượng giao dịch đã tăng vượt bậc {5,number, #.##}% thành {3} điểm.
+Mặc dù khối lượng giao dịch đã tăng lên {3} điểm tương đương với {5,number, #.##}% so với hôm qua nhưng chưa thể kéo {1} đảo chiều.
+Kết thúc phiên giao dịch cuối ngày, khối lượng giao dich đã chạm ngưỡng {3} điểm, tăng {5,number, #.##}% so với hôm qua nhưng vẫn chưa có sự chuyển biến lớn.
+Một sự chuyển biến tích cực khi khối lượng giao dịch của {1} đã tăng {5,number, #.##}% so với ngày hôm qua.
+Sau khi kết thúc phiên giao dich ngày {2}, khối lượng giao dich của {1} đã tăng lên {3} điểm.
+Kết thúc phiên giao dịch, khối lượng giao dịch của đã tăng {5,number, #.##}% nhưng vẫn chưa thể kéo {1} đảo chiều.
+
+
