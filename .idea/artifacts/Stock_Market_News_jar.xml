@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Stock-Market-News:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Stock_Market_News_jar</output-path>
+    <root id="archive" name="Stock-Market-News_jar.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Stock-Market-News" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/opencsv-5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mssql-jdbc-8.2.2.jre13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

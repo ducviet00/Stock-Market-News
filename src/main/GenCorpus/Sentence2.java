@@ -1,7 +1,7 @@
 package main.GenCorpus;
 
-import main.Data;
-import main.Stock;
+import main.Data.StkData;
+import main.Data.Stock;
 
 import java.text.MessageFormat;
 import java.util.List;
@@ -17,15 +17,15 @@ public class Sentence2 extends Sentences {
      * 1,45%), còn 939,68 điểm.
      */
     @Override
-    public void genSentence() {
+    public String genSentence() {
         int indexToday = 0;
 
-        Data today = thisStk.getDailyData(indexToday);
-        Data yesterday = thisStk.getDailyData(indexToday + 1);
+        StkData today = thisStk.getDailyData(indexToday);
+        StkData yesterday = thisStk.getDailyData(indexToday + 1);
 
         double closeChange = today.getPrice() - today.getOpen();
         double changePercent = closeChange / today.getPrice() * 100;
-        String closeChangeStr = String.valueOf(closeChange);
+        String closeChangeStr = String.format("%.2f", changePercent);
 
         String str = null;
         List<String> patterns = null;
@@ -48,8 +48,8 @@ public class Sentence2 extends Sentences {
 
         String pattern = patterns.get(index);
         String result = MessageFormat.format(
-                pattern, code, name, dateStr, data.getPrice(), changePercent, str);
+                pattern, name, code, dateStr, stkData.getPrice(), changePercent, str);
 
-        System.out.println(result);
+        return result;
     }
 }

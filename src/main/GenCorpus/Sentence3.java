@@ -1,7 +1,7 @@
 package main.GenCorpus;
 
-import main.Data;
-import main.Stock;
+import main.Data.StkData;
+import main.Data.Stock;
 
 import java.text.MessageFormat;
 import java.util.List;
@@ -13,14 +13,14 @@ public class Sentence3 extends Sentences {
     }
 
     @Override
-    public void genSentence() {
+    public String genSentence() {
 
 
         int indexToday = 0;
-        Data today = thisStk.getDailyData(indexToday);
-        Data yesterday = thisStk.getDailyData(indexToday + 1);
+        StkData today = thisStk.getDailyData(indexToday);
+        StkData yesterday = thisStk.getDailyData(indexToday + 1);
 
-        double increase = (today.getVol() - yesterday.getVol())/yesterday.getVol()*100;
+        double increase = (today.getVol() - yesterday.getVol()) / yesterday.getVol() * 100;
 
 
         List<String> patterns = null;
@@ -34,8 +34,8 @@ public class Sentence3 extends Sentences {
 
         String pattern = patterns.get(index);
         String result = MessageFormat.format(
-                pattern, code, name, dateStr, data.getVol(), data.getChange(), volChange);
+                pattern, name, code, dateStr, stkData.getVol(), stkData.getChange(), volChange);
 
-        System.out.println(result);
+        return result;
     }
 }

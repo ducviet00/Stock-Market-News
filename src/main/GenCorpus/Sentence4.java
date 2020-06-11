@@ -1,7 +1,7 @@
 package main.GenCorpus;
 
-import main.Data;
-import main.Stock;
+import main.Data.StkData;
+import main.Data.Stock;
 
 import java.text.MessageFormat;
 import java.util.List;
@@ -13,26 +13,24 @@ public class Sentence4 extends Sentences {
     }
 
     @Override
-    public void genSentence() {
+    public String genSentence() {
         int indexToday = 0;
 
-        Data today = thisStk.getDailyData(indexToday);
-        Data yesterday = thisStk.getDailyData(indexToday + 1);
+        StkData today = thisStk.getDailyData(indexToday);
+        StkData yesterday = thisStk.getDailyData(indexToday + 1);
 
         double vol = today.getVol();
         //double changePercent = closeChange / today.getPrice() * 100;
-        double val = data.getVol() * 12000;
+        double val = stkData.getVol() * 12000;
         double volChange = today.getVol() - yesterday.getVol();
 
         List<String> patterns = null;
 
-        if (vol < 10000){
+        if (vol < 10000) {
             patterns = readFile.readData("Data\\sentences_data\\Sentence 4\\S4_low.txt");
-        }
-        else if(vol < 100000) {
+        } else if (vol < 100000) {
             patterns = readFile.readData("Data\\sentences_data\\Sentence 4\\S4_all.txt");
-        }
-        else {
+        } else {
             patterns = readFile.readData("Data\\sentences_data\\Sentence 4\\S4_high.txt");
         }
 
@@ -42,21 +40,17 @@ public class Sentence4 extends Sentences {
         String pattern = patterns.get(index);
 
         String result = MessageFormat.format(
-                pattern, code, name, dateStr, data.getPrice(), vol, val, volChange);
+                pattern, name, code, dateStr, stkData.getPrice(), vol, val, volChange);
 
         // {1} -- name ; {2} -- date; {3} -- price; {4} -- vol; {5} -- value. {6} -- volChange;
         // {5} -- times
-        System.out.println(result);
+        return result;
     }
 }
 
 
-
-
-
-
-        // trong Stock có thêm phương thức tính GetVolChange = today.vol -
-        // yesterday.vol --> volChange = thisStk.getVolChange()
+// trong Stock có thêm phương thức tính GetVolChange = today.vol -
+// yesterday.vol --> volChange = thisStk.getVolChange()
       /*  double volChange = data.vol - data.vol;
         double val = data.vol * 12000;
         double times = data.vol / (data.vol + volChange);

@@ -1,6 +1,6 @@
 package main.CollectData;
 
-import main.Data;
+import main.Data.StkData;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,14 +8,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 public class CollectCSV implements ICollector {
 
-    public List<Data> collectData(String filename) {
-        List<Data> collected = new ArrayList<>();
+    public List<StkData> collectData(String filename) {
+        List<StkData> collected = new ArrayList<>();
         try {
-            String filePath = ".\\Data\\" + filename + ".csv";
+            String filePath = ".\\Data\\Processed\\" + filename + ".csv";
             FileReader fileReader = new FileReader(filePath);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             SimpleDateFormat formatter1 = new SimpleDateFormat("yyyy-MM-dd");
@@ -33,7 +35,7 @@ public class CollectCSV implements ICollector {
                     double low = Double.parseDouble(temp[4]);
                     double vol = Double.parseDouble(temp[5]);
                     double change = Double.parseDouble(temp[6]);
-                    Data t = new Data(date, price, open, high, low, vol, change);
+                    StkData t = new StkData(date, price, open, high, low, vol, change);
                     collected.add(t);
                 } catch (Exception ignored) {
                     System.out.println(ignored);
@@ -53,9 +55,9 @@ public class CollectCSV implements ICollector {
 
     public static void main(String[] args) throws ParseException {
         ICollector collector = new CollectCSV();
-        List<Data> test = collector.collectData("VNIndex");
+        List<StkData> test = collector.collectData("VNIndex");
         System.out.println("size: " + test.size());
-        System.out.println(test.get(test.size()-1));
+        System.out.println(test.get(test.size() - 1));
 
     }
 

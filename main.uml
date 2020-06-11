@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main</OriginalElement>
+  <nodes>
+    <node x="399.4142857142857" y="382.0">main.App</node>
+    <node x="0.0" y="114.0">main.Utils</node>
+    <node x="342.33333333333337" y="0.0">main.CollectData</node>
+    <node x="167.0" y="114.0">main.ReadData</node>
+    <node x="390.0" y="114.0">main.Data</node>
+    <node x="156.9825396825397" y="258.0">main.GenCorpus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.CollectData" target="main.Data">
+      <point x="83.33333333333337" y="27.0" />
+      <point x="525.6666666666667" y="94.0" />
+      <point x="514.2" y="94.0" />
+      <point x="55.200000000000045" y="-27.0" />
+    </edge>
+    <edge source="main.App" target="main.Data">
+      <point x="51.60000000000002" y="-27.0" />
+      <point x="515.5142857142857" y="362.0" />
+      <point x="503.9111111111111" y="362.0" />
+      <point x="503.9111111111111" y="238.0" />
+      <point x="518.1428571428571" y="238.0" />
+      <point x="59.14285714285711" y="27.0" />
+    </edge>
+    <edge source="main.GenCorpus" target="main.GenCorpus">
+      <point x="-60.66666666666666" y="27.0" />
+      <point x="187.31587301587305" y="332.0" />
+      <point x="136.9825396825397" y="332.0" />
+      <point x="136.9825396825397" y="285.0" />
+      <point x="-91.0" y="-0.0" />
+    </edge>
+    <edge source="main.CollectData" target="main.CollectData">
+      <point x="-83.33333333333334" y="27.0" />
+      <point x="359.00000000000006" y="74.0" />
+      <point x="322.33333333333337" y="74.0" />
+      <point x="322.33333333333337" y="27.0" />
+      <point x="-100.0" y="-0.0" />
+    </edge>
+    <edge source="main.GenCorpus" target="main.ReadData">
+      <point x="15.166666666666657" y="-27.0" />
+      <point x="263.14920634920634" y="218.0" />
+      <point x="296.75" y="218.0" />
+      <point x="43.25000000000003" y="27.0" />
+    </edge>
+    <edge source="main.Data" target="main.Data">
+      <point x="-59.142857142857146" y="27.0" />
+      <point x="399.85714285714283" y="188.0" />
+      <point x="370.0" y="188.0" />
+      <point x="370.0" y="154.5" />
+      <point x="-69.0" y="13.5" />
+    </edge>
+    <edge source="main.App" target="main.GenCorpus">
+      <point x="-51.60000000000002" y="-27.0" />
+      <point x="412.3142857142857" y="362.0" />
+      <point x="247.9825396825397" y="362.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="main.GenCorpus" target="main.Data">
+      <point x="75.83333333333329" y="-27.0" />
+      <point x="323.81587301587297" y="238.0" />
+      <point x="459.0" y="238.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="main.GenCorpus" target="main.Utils">
+      <point x="-45.5" y="-27.0" />
+      <point x="202.4825396825397" y="228.0" />
+      <point x="110.25" y="228.0" />
+      <point x="36.75" y="27.0" />
+    </edge>
+    <edge source="main.App" target="main.App">
+      <point x="-32.25" y="27.0" />
+      <point x="431.6642857142857" y="456.0" />
+      <point x="379.4142857142857" y="456.0" />
+      <point x="379.4142857142857" y="422.5" />
+      <point x="-64.5" y="13.5" />
+    </edge>
+    <edge source="main.Data" target="main.CollectData">
+      <point x="0.0" y="-27.0" />
+      <point x="16.66666666666663" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9012096774193549" x="289.5" y="238.0" />
+  <SelectedNodes>
+    <node>main.Utils</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

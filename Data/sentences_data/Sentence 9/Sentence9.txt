@@ -1,0 +1,10 @@
+Kết thúc tuần giao dịch {3} đến {2}, {1} {4} hơn {5} điểm, đạt {6} điểm.
+Kết thúc tuần giao dịch, {1} đóng cửa ở mức {6} điểm, {4} {5} điểm ({7}%) so với cuối tuần trước.
+Kết thúc tuần giao dịch, {1} {4} {5} điểm ({7}%) so với tuần trước.
+Kết thúc tuần giao dịch, {1} đóng cửa tại {6} điểm, {4} {5} điểm so với tuần trước.
+Chỉ số {1} kết thúc tuần tại {6} điểm, {4} {5} điểm so với cuối tuần trước, tương đương gần {7}%.
+{1} đóng cửa tại {6} điểm, {4} {5} điểm ({7}%) so với cuối tuần trước.
+Tính chung trong tuần, {1} {4} {5} điểm, đóng cửa phiên cuối tuần tại {6} điểm.
+Kết thúc tuần giao dịch, {1} dừng ở mức {6} điểm, {4} {7}% so với cuối tuần trước.
+Khép lại tuần giao dịch, {1} đứng tại {6} điểm, trung bình mỗi phiên chỉ số {4} {8} điểm.
+Trung bình mỗi phiên trong tuần {1} {4} {8} điểm.

@@ -1,9 +1,9 @@
 package main.CollectData;
 
-import main.Data;
+import main.Data.StkData;
 
 import java.util.List;
 
 public interface ICollector {
-    public List<Data> collectData(String name);
+    List<StkData> collectData(String name);
 }

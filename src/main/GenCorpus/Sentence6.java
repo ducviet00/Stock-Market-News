@@ -1,11 +1,14 @@
 package main.GenCorpus;
 
-import main.Utils.IncDecSequence;
-import main.Stock;
+import main.Data.StkData;
+import main.Data.Stock;
+import main.Utils.TestIncDecSequence;
 
 import java.text.MessageFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
 
 public class Sentence6 extends Sentences{
     public Sentence6(Stock stock) {
@@ -13,17 +16,33 @@ public class Sentence6 extends Sentences{
     }
 
     @Override
-    public void genSentence() {
+    public String genSentence() {
 
-        IncDecSequence ids = new IncDecSequence(stk);
-        String tangGiam = ids.getTypePrice(); // price dang tang lien tiep hay giam lien tiep
-        int numberSequence = ids.priceSequence(); // so phien lien tiep
+        List<StkData> list = thisStk.getStkData();
+        ArrayList<Double> priceList = new ArrayList<Double>();
+        for(int i=0; i<=30; i++) {
+            Double price = list.get(i).getPrice();
+            priceList.add(price);
+        }
 
+        TestIncDecSequence test = new TestIncDecSequence(priceList);
+
+        String tangGiam; // tăng liên tiếp hay giảm liên tiếp
+        String giamTang; // ngược lại với tangGiam
+        int numberSequence; // số lượng phiên liên tiếp
+
+        // xác định giá trị của các biến tangGiam, giamTang, numberSequence
+        tangGiam = test.getType();
+        if (tangGiam.equals("giảm"))
+            giamTang = "tăng";
+        else
+            giamTang = "giảm";
+        numberSequence = test.countNumSequence();
 
         List<String> patterns = null;
-        if (numberSequence >= 3) {
-            patterns = readFile.readData("Data\\sentences_data\\Sentence6.txt");
-        }
+        if (numberSequence >= 2) {
+            patterns = readFile.readData("Data\\sentences_data\\Sentence 6\\Sentence6.txt");
+        } else patterns = readFile.readData("Data\\sentences_data\\Sentence 6\\Sentence6_non.txt");
 
 
         Random rand = new Random();
@@ -31,10 +50,11 @@ public class Sentence6 extends Sentences{
 
         String pattern = patterns.get(index);
         String result = MessageFormat.format(
-                pattern, code, name, dateStr, tangGiam, numberSequence, data.getPrice());
+                pattern, name, code, dateStr, tangGiam, numberSequence, stkData.getPrice(), giamTang);
         // {0} -- code, {1} -- name, {2} -- date, {3} -- tang/giam
-        // {4} -- number sequence, {5} -- price
+        // {4} -- number sequence, {5} -- price, {6} -- trái với {3}
 
-        System.out.println(result);
+        return result;
     }
+
 }

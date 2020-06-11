@@ -1,2 +1,2 @@
-﻿Đóng cửa phiên ngày {2}, khối lượng giao dịch của {1} đã {3} {4} phiên liên tiếp, đạt hơn {5} cổ phiếu.
+Đóng cửa phiên ngày {2}, khối lượng giao dịch của {1} đã {3} {4} phiên liên tiếp, đạt hơn {5} cổ phiếu.
 Hôm nay là phiên thứ {4} thanh khoản của {1} {3} liên tiếp, với giá trị khoảng {6} đồng.

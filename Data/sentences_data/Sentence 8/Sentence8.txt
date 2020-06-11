@@ -1,0 +1,7 @@
+Tuần giao dịch từ ngày {3} đến ngày {2}, {1} có {4} phiên tăng và {5} phiên giảm.
+Sau {4} phiên tăng, {5} phiên đi xuống, {1} {6} {7} điểm sau trọn tuần giao dịch.
+Với {4} phiên tăng, {5} phiên giảm, {1} {6} {7} điểm.
+{1} có {4} phiên tăng điểm và {5} phiên giảm điểm sau tuần giao dịch vừa qua.
+Có được {4} phiên tăng và {5} phiên giảm trong tuần giao dịch từ {3} đến {2}, {1} {6} hơn {7} điểm.
+Kết thúc tuần giao dịch {3} đến {2}, {1} {6} {7} điểm sau {4} phiên tăng điểm và {5} phiên giảm.
+{1} kết thúc tuần giao dịch vừa qua với {4} phiên tăng và {5} phiên giảm.

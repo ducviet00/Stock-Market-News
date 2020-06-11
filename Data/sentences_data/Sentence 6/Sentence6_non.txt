@@ -1,0 +1,2 @@
+Kết thúc phiên hôm nay (ngày {2}), điểm số của {1} đã {3} sau phiên {6} của ngày hôm trước, đạt {5} điểm.
+Chấm dứt đợt {6} điểm của phiên hôm trước, hôm nay điểm số của {1} đã {3} đạt {5} điểm.

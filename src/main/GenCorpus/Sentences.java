@@ -1,16 +1,16 @@
 package main.GenCorpus;
 
-import main.Data;
+import main.Data.StkData;
+import main.Data.Stock;
 import main.ReadData.IReadData;
 import main.ReadData.ReadFile;
-import main.Stock;
 import main.Utils.Utils;
 
 public abstract class Sentences {
     protected Stock stk;
     protected final String code;
     protected final String name;
-    protected final Data data;
+    protected final StkData stkData;
     protected final String dateStr;
     protected final Stock thisStk;
     protected final IReadData readFile = new ReadFile();
@@ -19,10 +19,11 @@ public abstract class Sentences {
         this.thisStk = stk;
         this.code = stk.getCode();
         this.name = stk.getName();
-        this.data = stk.getData();
-        this.dateStr = Utils.date2String(data.tradeDate);
+        this.stkData = stk.getData();
+        this.dateStr = Utils.date2String(stkData.tradeDate);
     }
 
-    public void genSentence() {
+    public String genSentence() {
+        return null;
     }
 }

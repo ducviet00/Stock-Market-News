@@ -1,0 +1,1 @@
+Mở đầu phiên ngày {2}, {1} không tăng điểm so với ngày giao dịch trước.

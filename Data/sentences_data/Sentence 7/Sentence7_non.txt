@@ -1,0 +1,2 @@
+Kết thúc phiên giao dịch ngày {2}, khối lượng giao dịch của {1} đã {3} sau phiên {7} hôm trước.
+Sau phiên {7} khối lượng của ngày hôm trước, hôm nay khối lượng giao dịch của {1} đã {3}, đạt {5} cổ phiếu.
